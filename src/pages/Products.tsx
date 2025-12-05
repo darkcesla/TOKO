@@ -122,7 +122,7 @@ export default function Products() {
                   </div>
 
                   <div className="d-flex gap-2 mt-auto">
-                    <button className="btn btn-primary w-75 fw-semibold rounded-3">Checkout</button>
+                    <button className="btn btn-primary w-75 fw-semibold rounded-3">Beli</button>
 
                     <button className="btn btn-outline-primary w-25 rounded-3" onClick={() => addToCartWithQty(p)}>
                       <i className="bi bi-cart3"></i>
