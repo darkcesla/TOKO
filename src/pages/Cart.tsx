@@ -2,6 +2,7 @@ import { useCart } from "../context/CartContext";
 import "../assets/css/style_toko_produk.css";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import cart_kosong from "../assets/img/cart_kosong.png";
 
 export default function Cart() {
   const { cart, tambah, kurang, hapus, hapusCart } = useCart();
@@ -42,7 +43,7 @@ export default function Cart() {
         {cart.length === 0 && (
           <div className="d-flex flex-column justify-content-center align-items-center text-center" style={{ height: "70vh" }}>
             <img
-              src="../src/assets/img/cart_kosong.png"
+              src={cart_kosong}
               alt="Keranjang kosong"
               style={{ width: 220, opacity: 0.9 }}
             />
