@@ -58,10 +58,12 @@ export default function Products() {
       <div id="promoCarousel" className="carousel slide mt-1 w-100" data-bs-ride="carousel">
         <div className="carousel-inner rounded-4 shadow-sm">
           <div className="carousel-item active">
-            <img src="../src/assets/img/banner/banner1.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
+            <img src="/assets/img/banner/banner1.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
+            {/* <img src="../src/assets/img/banner/banner1.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} /> */}
           </div>
           <div className="carousel-item">
-            <img src="../src/assets/img/banner/banner2.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
+            <img src="/assets/img/banner/banner2.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
+            {/* <img src="../src/assets/img/banner/banner2.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} /> */}
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#promoCarousel" data-bs-slide="prev">
