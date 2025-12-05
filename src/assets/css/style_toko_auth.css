@@ -1,0 +1,20 @@
+body { background:#ffffff; height:100vh; }
+.kontainer { height:100vh; }
+.kartu {
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+    padding: 35px;
+    background:white;
+}
+.auth-input { border-radius: 10px; height: 46px; }
+.gradient {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+}
+.field {
+    background:white;
+    border-right:0;
+    border-radius: 10px 0 0 10px;
+}
+.input-group .form-control {
+    border-left:0;
+}

@@ -1,0 +1,36 @@
+body {
+    background: #ffffff;
+}
+.kartu {
+    border-radius: 18px;
+    transition: .2s;
+}
+.kartu:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+}
+.qty-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+}
+.cari {
+    border-radius: 14px;
+    overflow: hidden;
+    background: #f1f3f4;
+}
+.cari input {
+    border: none;
+    background: transparent;
+}
+footer, .site-footer {
+    width: 100vw;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: white;
+    margin-top: 70px;
+}
+.footer-divider {
+    border-color: rgba(255,255,255,0.4);
+    margin: 25px 0;
+}
