@@ -3,6 +3,10 @@ import { useCart } from "../context/CartContext";
 import "../assets/css/style_toko_produk.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
+import banner1 from "../assets/img/banner/banner1.png";
+import banner2 from "../assets/img/banner/banner2.png";
+import banner3 from "../assets/img/banner/banner3.png";
+import gambar1 from "../assets/img/gambar1.png";
 
 export default function Products() {
   const [products, setProducts] = useState<any[]>([]);
@@ -58,11 +62,11 @@ export default function Products() {
       <div id="promoCarousel" className="carousel slide mt-1 w-100" data-bs-ride="carousel">
         <div className="carousel-inner rounded-4 shadow-sm">
           <div className="carousel-item active">
-            <img src="/assets/img/banner/banner1.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
+            <img src={banner1} className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
             {/* <img src="../src/assets/img/banner/banner1.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} /> */}
           </div>
           <div className="carousel-item">
-            <img src="/assets/img/banner/banner2.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
+            <img src={banner2} className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
             {/* <img src="../src/assets/img/banner/banner2.png" className="d-block w-100" style={{ height: 500, objectFit: "cover" }} /> */}
           </div>
         </div>
@@ -134,10 +138,10 @@ export default function Products() {
           <div className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner rounded-4 shadow-sm">
               <div className="carousel-item active">
-                <img src="../src/assets/img/banner/banner3.png" className="d-block w-100" style={{ height: 400, objectFit: "cover" }} />
+                <img src={banner3} className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
               </div>
               <div className="carousel-item">
-                <img src="../src/assets/img/gambar1.png" className="d-block w-100" style={{ height: 400, objectFit: "cover" }} />
+                <img src={gambar1} className="d-block w-100" style={{ height: 500, objectFit: "cover" }} />
               </div>
             </div>
           </div>
